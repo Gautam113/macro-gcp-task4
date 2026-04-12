@@ -1,0 +1,51 @@
+node_id,node_name,node_type,region,state,capacity_mw,is_renewable,commission_year,maintenance_schedule,lat,lon
+NODE0001,Wind Farm 1,Wind Farm,Northeast,IL,497.3,True,1988,Monthly,41.240788,-71.469226
+NODE0002,Wind Farm 2,Wind Farm,Southwest,OH,73.2,True,1985,Quarterly,30.583861,-88.878876
+NODE0003,Coal Plant 3,Coal Plant,Southwest,OH,448.7,False,2017,Semi-Annual,44.426331,-124.610074
+NODE0004,Hydro Plant 4,Hydro Plant,West,PA,563.0,True,1993,Semi-Annual,27.453047,-102.204362
+NODE0005,Nuclear Plant 5,Nuclear Plant,Midwest,NC,536.4,False,1982,Annual,37.869474,-66.613054
+NODE0006,Substation 6,Substation,Northeast,WA,593.4,False,2020,Semi-Annual,38.856451,-82.72569
+NODE0007,Solar Farm 7,Solar Farm,Southeast,IL,1970.6,True,1994,Monthly,34.123029,-97.795382
+NODE0008,Nuclear Plant 8,Nuclear Plant,Southeast,PA,717.0,False,2022,Semi-Annual,41.843688,-83.98714
+NODE0009,Wind Farm 9,Wind Farm,Southwest,NY,1072.9,True,1995,Quarterly,36.094245,-108.80313
+NODE0010,Coal Plant 10,Coal Plant,Midwest,CA,465.8,False,1982,Semi-Annual,34.627955,-121.028684
+NODE0011,Nuclear Plant 11,Nuclear Plant,Southeast,GA,797.3,False,2021,Annual,28.428918,-116.622181
+NODE0012,Gas Plant 12,Gas Plant,Southwest,OH,1796.7,False,2005,Semi-Annual,30.263698,-65.147744
+NODE0013,Distribution Hub 13,Distribution Hub,Northeast,CA,1723.6,False,1989,Quarterly,44.009905,-99.670402
+NODE0014,Wind Farm 14,Wind Farm,West,OH,1195.8,True,2009,Semi-Annual,48.305881,-73.353218
+NODE0015,Solar Farm 15,Solar Farm,Northeast,WA,1504.2,True,2021,Semi-Annual,27.677252,-98.914085
+NODE0016,Distribution Hub 16,Distribution Hub,Northeast,IL,1944.1,False,1991,Monthly,45.892446,-107.093313
+NODE0017,Coal Plant 17,Coal Plant,Southeast,PA,1527.4,False,2014,Monthly,39.37467,-95.683658
+NODE0018,Wind Farm 18,Wind Farm,Midwest,IL,486.5,True,1995,Monthly,27.055683,-95.840572
+NODE0019,Wind Farm 19,Wind Farm,Southwest,NY,265.5,True,2010,Quarterly,31.361359,-72.654018
+NODE0020,Substation 20,Substation,Southeast,WA,1513.0,False,1992,Semi-Annual,34.575815,-84.698782
+NODE0021,Nuclear Plant 21,Nuclear Plant,West,WA,908.5,False,1995,Quarterly,26.536622,-123.737944
+NODE0022,Coal Plant 22,Coal Plant,Southwest,FL,24.3,False,2020,Monthly,30.494603,-70.674799
+NODE0023,Nuclear Plant 23,Nuclear Plant,Northeast,WA,483.6,False,2022,Annual,30.141683,-117.061289
+NODE0024,Distribution Hub 24,Distribution Hub,Southeast,GA,1616.9,False,1992,Monthly,27.32634,-99.136929
+NODE0025,Substation 25,Substation,West,GA,1729.0,False,1983,Monthly,26.454704,-81.307185
+NODE0026,Wind Farm 26,Wind Farm,Southeast,FL,388.5,True,2008,Quarterly,35.125159,-108.287291
+NODE0027,Coal Plant 27,Coal Plant,Northeast,GA,1618.0,False,2015,Monthly,26.21412,-65.043052
+NODE0028,Solar Farm 28,Solar Farm,Northeast,FL,341.0,True,2011,Annual,30.129935,-100.937582
+NODE0029,Solar Farm 29,Solar Farm,Southeast,OH,14.3,True,2004,Semi-Annual,47.236434,-77.892239
+NODE0030,Gas Plant 30,Gas Plant,West,WA,1327.1,False,2011,Quarterly,29.557549,-111.937946
+NODE0031,Solar Farm 31,Solar Farm,Southwest,WA,131.3,True,2000,Monthly,26.203416,-96.392689
+NODE0032,Hydro Plant 32,Hydro Plant,Northeast,WA,169.4,True,1991,Monthly,39.280843,-84.487247
+NODE0033,Coal Plant 33,Coal Plant,West,TX,1883.8,False,2016,Quarterly,38.894057,-122.6155
+NODE0034,Wind Farm 34,Wind Farm,West,NC,1134.8,True,2000,Semi-Annual,29.902221,-82.028492
+NODE0035,Coal Plant 35,Coal Plant,Midwest,OH,270.4,False,2021,Semi-Annual,35.97339,-69.2589
+NODE0036,Wind Farm 36,Wind Farm,Northeast,GA,1246.1,True,2016,Monthly,26.758257,-112.210741
+NODE0037,Gas Plant 37,Gas Plant,Southeast,PA,1762.9,False,1995,Semi-Annual,31.839697,-98.708926
+NODE0038,Gas Plant 38,Gas Plant,Southwest,WA,25.6,False,2015,Semi-Annual,47.362145,-118.78481
+NODE0039,Hydro Plant 39,Hydro Plant,Midwest,TX,1780.5,True,2015,Quarterly,31.536357,-88.71021
+NODE0040,Nuclear Plant 40,Nuclear Plant,Southeast,IL,1015.8,False,1996,Monthly,27.215163,-99.585454
+NODE0041,Gas Plant 41,Gas Plant,Northeast,CA,673.8,False,1988,Semi-Annual,28.877967,-98.489869
+NODE0042,Substation 42,Substation,Southwest,CA,232.6,False,1989,Monthly,45.03028,-90.049426
+NODE0043,Hydro Plant 43,Hydro Plant,West,NY,93.2,True,2003,Monthly,46.574191,-112.395408
+NODE0044,Coal Plant 44,Coal Plant,Northeast,PA,1562.4,False,2006,Quarterly,47.218332,-110.79576
+NODE0045,Hydro Plant 45,Hydro Plant,Southeast,OH,59.3,True,2001,Annual,44.253643,-73.156158
+NODE0046,Coal Plant 46,Coal Plant,Midwest,NY,1576.9,False,1986,Annual,45.932003,-73.484405
+NODE0047,Coal Plant 47,Coal Plant,Southeast,GA,705.8,False,1994,Quarterly,25.567946,-113.412213
+NODE0048,Nuclear Plant 48,Nuclear Plant,Midwest,TX,1934.1,False,1997,Semi-Annual,40.395562,-101.019297
+NODE0049,Nuclear Plant 49,Nuclear Plant,Northeast,TX,1755.3,False,1996,Quarterly,38.934154,-65.986966
+NODE0050,Solar Farm 50,Solar Farm,Northeast,NC,874.8,True,2000,Annual,39.549012,-94.314616

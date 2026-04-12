@@ -1,0 +1,68 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grid-event-producer
+  namespace: default
+  labels:
+    app: grid-event-producer
+    version: "1.0"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grid-event-producer
+  template:
+    metadata:
+      labels:
+        app: grid-event-producer
+    spec:
+      containers:
+        - name: grid-producer
+          image: grid-event-producer:1.0
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+              name: health
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "500m"
+              memory: "256Mi"
+          env:
+            # Non-sensitive config from ConfigMap
+            - name: EVENT_HUB_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: grid-producer-config
+                  key: EVENT_HUB_NAME
+            - name: PUBLISH_BATCH_SIZE
+              valueFrom:
+                configMapKeyRef:
+                  name: grid-producer-config
+                  key: PUBLISH_BATCH_SIZE
+            - name: REPLAY_LOOP
+              valueFrom:
+                configMapKeyRef:
+                  name: grid-producer-config
+                  key: REPLAY_LOOP
+            # Sensitive config from Secret
+            - name: EVENT_HUB_CONNECTION_STRING
+              valueFrom:
+                secretKeyRef:
+                  name: grid-producer-secret
+                  key: EVENT_HUB_CONNECTION_STRING
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8080
+            initialDelaySeconds: 30
+            periodSeconds: 15
+            failureThreshold: 3
+          readinessProbe:
+            httpGet:
+              path: /ready
+              port: 8080
+            initialDelaySeconds: 10
+            periodSeconds: 10

@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: grid-producer-config
+  namespace: default
+data:
+  EVENT_HUB_NAME: "grid-events-hub"
+  PUBLISH_BATCH_SIZE: "100"
+  REPLAY_LOOP: "true"
